@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "73640a9261346f09",
+        "parentUid" : "9356309a724c7d3a67a6e84cb147cacc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1662839664435,
+          "stop" : 1662839664436,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9356309a724c7d3a67a6e84cb147cacc"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

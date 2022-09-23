@@ -1,0 +1,29 @@
+[
+    {
+        "operationName": "SearchFormFacetsQuery",
+        "variables": {
+            "advertQuery": {
+                "advertisingLocations": [
+                    "at_cars"
+                ],
+                "advertClassification": [
+                    "standard"
+                ],
+                "make": [
+                    "AUDI"
+                ],
+                "homeDeliveryAdverts": null,
+                "distance": null,
+                "clickAndCollectOrHomeDeliveryAvailable": null
+            },
+            "facets": [
+                "distance",
+                "min_price",
+                "max_price",
+                "make",
+                "model"
+            ]
+        },
+        "query": "query SearchFormFacetsQuery($advertQuery: AdvertQuery!, $facets: [SearchFacetName]) {\n  search {\n    adverts(advertQuery: $advertQuery) {\n      advertList {\n        totalElements\n        __typename\n      }\n      facets(facets: $facets) {\n        name\n        values {\n          name\n          value\n          count\n          selected\n          __typename\n        }\n        __typename\n      }\n      __typename\n    }\n    __typename\n  }\n}\n"
+    }
+]

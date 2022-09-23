@@ -1,0 +1,111 @@
+[ {
+  "uid" : "c82b60f4c17873b9",
+  "name" : "Client should have the same set of car models for each make as in COCHES provider",
+  "time" : {
+    "start" : 1662839666579,
+    "stop" : 1662839666579,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9a0de248a2b448c4",
+  "name" : "Client should have the same set of car models for each make as in AUTOSCOUT provider",
+  "time" : {
+    "start" : 1662839666024,
+    "stop" : 1662839666024,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cb1016d8aa2fcb71",
+  "name" : "Client should have the same set of car models for each make as in PORSCHE_FINDER_DE provider",
+  "time" : {
+    "start" : 1662839668389,
+    "stop" : 1662839668389,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "79556ecba7688e0e",
+  "name" : "Client should have the same set of car models for each make as in AUTOSCOUT_CH provider",
+  "time" : {
+    "start" : 1662839665593,
+    "stop" : 1662839665593,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2e7810678e5ad65b",
+  "name" : "Client should have the same set of car models for each make as in PKW provider",
+  "time" : {
+    "start" : 1662839668387,
+    "stop" : 1662839668387,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "73640a9261346f09",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1662839664435,
+    "stop" : 1662839664436,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b95de103d23fcd95",
+  "name" : "Client should have the same set of car models for each make as in HASZNALTAUTO provider",
+  "time" : {
+    "start" : 1662839666992,
+    "stop" : 1662839666992,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8239e3d953af4d95",
+  "name" : "Client should have the same set of car models for each make as in AUTOTRADER provider",
+  "time" : {
+    "start" : 1662839666377,
+    "stop" : 1662839666377,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "df0e99dba1b727dc",
+  "name" : "Client should have the same set of car models for each make as in OTOMOTO provider",
+  "time" : {
+    "start" : 1662839667801,
+    "stop" : 1662839667801,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c206eb4e8f086073",
+  "name" : "Client should have the same set of car models for each make as in MOBILEDEW provider",
+  "time" : {
+    "start" : 1662839667484,
+    "stop" : 1662839667485,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "13e3f081ba31bc0d",
+  "name" : "Client should have the same set of car models for each make as in LACENTRAL_FR provider",
+  "time" : {
+    "start" : 1662839667343,
+    "stop" : 1662839667343,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

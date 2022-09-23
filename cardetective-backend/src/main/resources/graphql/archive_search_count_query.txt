@@ -1,0 +1,21 @@
+{
+    "searchMaskType": "ARCHIVE",
+    "vehicleType": "CAR",
+    "accidentData": "DO_NOT_SHOW_ACCIDENT_VEHICLES",
+    "vatableOption": "ANY",
+    "country": [
+      "DE"
+    ],
+    "sortField": "price",
+    "sortOrder": true,
+    "sortOverride": true,
+    "sources": "SEARCH",
+    "providers": [
+      "MOBILEDEW"
+    ],
+    "cache": null,
+    "_internal": {
+      "page": 0,
+      "pageSize": 20
+    }
+  }

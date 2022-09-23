@@ -1,0 +1,141 @@
+[ {
+  "buildOrder" : 385,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/385/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3954
+  }
+}, {
+  "buildOrder" : 384,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/384/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4252
+  }
+}, {
+  "buildOrder" : 383,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/383/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4501
+  }
+}, {
+  "buildOrder" : 382,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/382/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4994
+  }
+}, {
+  "buildOrder" : 381,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/381/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4289
+  }
+}, {
+  "buildOrder" : 380,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/380/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4334
+  }
+}, {
+  "buildOrder" : 377,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/377/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4373
+  }
+}, {
+  "buildOrder" : 376,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/376/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3904
+  }
+}, {
+  "buildOrder" : 375,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/375/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4076
+  }
+}, {
+  "buildOrder" : 374,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/374/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4180
+  }
+}, {
+  "buildOrder" : 373,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/373/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3970
+  }
+}, {
+  "buildOrder" : 372,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/372/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4100
+  }
+}, {
+  "buildOrder" : 371,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/371/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4401
+  }
+}, {
+  "buildOrder" : 370,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/370/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3970
+  }
+}, {
+  "buildOrder" : 369,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/369/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 3941
+  }
+}, {
+  "buildOrder" : 368,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/368/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4256
+  }
+}, {
+  "buildOrder" : 367,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/367/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4001
+  }
+}, {
+  "buildOrder" : 366,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/366/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4006
+  }
+}, {
+  "buildOrder" : 365,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/365/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4795
+  }
+}, {
+  "buildOrder" : 364,
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/364/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 4055
+  }
+} ]

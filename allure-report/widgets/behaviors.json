@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "41b88b801ad40756db0c8fda4535497a",
+    "name" : "[BE] Application car makes and models by provider",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 10,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 11
+    }
+  } ]
+}

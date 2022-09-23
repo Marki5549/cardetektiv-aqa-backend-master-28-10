@@ -1,0 +1,1587 @@
+{
+  "uid" : "8239e3d953af4d95",
+  "name" : "Client should have the same set of car models for each make as in AUTOTRADER provider",
+  "fullName" : "de.cardetecktive.app.model.ProviderCarModelsTest.carModelsShouldBeEqualToAutotraderProviderModelsList",
+  "historyId" : "58b6ff941b13cfc12093bfed860de936",
+  "time" : {
+    "start" : 1662839666377,
+    "stop" : 1662839666377,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+  "statusTrace" : "org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.\n\tat org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)\n\tat org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:646)\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:960)\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1015)\n\tat org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1025)\n\tat de.cardetecktive.app.steps.AuthenticationSteps.removeUserSession(AuthenticationSteps.java:107)\n\tat de.cardetecktive.app.ApplicationBaseTest.setUp(ApplicationBaseTest.java:33)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366)\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320)\n\tat org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:701)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.util.ArrayList.forEach(ArrayList.java:1259)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:764)\n\tat org.testng.TestRunner.run(TestRunner.java:585)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:286)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1140)\n\tat org.testng.TestNG.runSuites(TestNG.java:1069)\n\tat org.testng.TestNG.run(TestNG.java:1037)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)\n\tat org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)\nCaused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.\n\tat com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)\n\tat com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)\n\tat com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)\n\tat com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)\n\tat com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)\n\tat com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)\n\tat java.sql.DriverManager.getConnection(DriverManager.java:664)\n\tat java.sql.DriverManager.getConnection(DriverManager.java:208)\n\tat org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriverManager(DriverManagerDataSource.java:155)\n\tat org.springframework.jdbc.datasource.DriverManagerDataSource.getConnectionFromDriver(DriverManagerDataSource.java:146)\n\tat org.springframework.jdbc.datasource.AbstractDriverBasedDataSource.getConnectionFromDriver(AbstractDriverBasedDataSource.java:205)\n\tat org.springframework.jdbc.datasource.SingleConnectionDataSource.initConnection(SingleConnectionDataSource.java:224)\n\tat org.springframework.jdbc.datasource.SingleConnectionDataSource.getConnection(SingleConnectionDataSource.java:164)\n\tat org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)\n\tat org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)\n\tat org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)\n\t... 42 more\nCaused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)\n\tat com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)\n\tat com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)\n\tat com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)\n\tat com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)\n\tat com.mysql.cj.NativeSession.connect(NativeSession.java:144)\n\tat com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)\n\tat com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)\n\t... 55 more\nCaused by: java.net.ConnectException: Connection refused (Connection refused)\n\tat java.net.PlainSocketImpl.socketConnect(Native Method)\n\tat java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)\n\tat java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)\n\tat java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)\n\tat java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)\n\tat java.net.Socket.connect(Socket.java:607)\n\tat com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)\n\tat com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)\n\t... 58 more\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "springTestContextBeforeTestClass",
+    "time" : {
+      "start" : 1662839659914,
+      "stop" : 1662839659920,
+      "duration" : 6
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "springTestContextPrepareTestInstance",
+    "time" : {
+      "start" : 1662839659921,
+      "stop" : 1662839660736,
+      "duration" : 815
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "springTestContextBeforeTestMethod",
+    "time" : {
+      "start" : 1662839666377,
+      "stop" : 1662839666377,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1662839666377,
+      "stop" : 1662839666377,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "springTestContextAfterTestClass",
+    "time" : {
+      "start" : 1662839668390,
+      "stop" : 1662839668391,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1662839668392,
+      "stop" : 1662839668392,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "springTestContextAfterTestMethod",
+    "time" : {
+      "start" : 1662839666377,
+      "stop" : 1662839666377,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "de.cardetecktive.app.model.ProviderCarModelsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "de.cardetecktive.app.model.ProviderCarModelsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "carModelsShouldBeEqualToAutotraderProviderModelsList"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Cardetective Full Regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "Cardetective acceptance tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "de.cardetecktive.app.model.ProviderCarModelsTest"
+  }, {
+    "name" : "host",
+    "value" : "lvps5-35-243-159.dedicated.hosteurope.de"
+  }, {
+    "name" : "thread",
+    "value" : "16897@lvps5-35-243-159.dedicated.hosteurope.de.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "[BE] Application car makes and models by provider"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "83be26473188f9a7",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666376,
+        "stop" : 1662839666376,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5df8ea6061d28ff5",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666375,
+        "stop" : 1662839666375,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5b6a5a3082839b08",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666374,
+        "stop" : 1662839666374,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dc9fade38751d89d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666373,
+        "stop" : 1662839666373,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fce3115304fe2779",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666372,
+        "stop" : 1662839666372,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1e9a863b4b3a286c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666371,
+        "stop" : 1662839666371,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b32395f1af2bfa6c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666370,
+        "stop" : 1662839666370,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d1d6b1fcc7d153de",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666369,
+        "stop" : 1662839666369,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff8006d0446c2a72",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666368,
+        "stop" : 1662839666368,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1ea6144b17106046",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666367,
+        "stop" : 1662839666367,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5356b187a527559d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666366,
+        "stop" : 1662839666366,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a441b812ee1095dd",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666365,
+        "stop" : 1662839666365,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "42c0d02c0d90ada0",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666364,
+        "stop" : 1662839666365,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4f99db7fbb1b7b9b",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666363,
+        "stop" : 1662839666364,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2882c04fef6b19e3",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666362,
+        "stop" : 1662839666363,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ba24b7a99314d084",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666362,
+        "stop" : 1662839666362,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "71d132e02364469a",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666361,
+        "stop" : 1662839666361,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4d6abf2ad901c7f3",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666360,
+        "stop" : 1662839666360,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44005fc892a30550",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666359,
+        "stop" : 1662839666359,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "652bdef92cc52be",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666358,
+        "stop" : 1662839666358,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "45a805322976a680",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666357,
+        "stop" : 1662839666357,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2dc8a3c89d2c4689",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666356,
+        "stop" : 1662839666356,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "af455e5a8be47d6d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666355,
+        "stop" : 1662839666355,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38f19618424273cf",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666354,
+        "stop" : 1662839666354,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "822be762cccd2d7c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666353,
+        "stop" : 1662839666353,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c4421d82472ec804",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666352,
+        "stop" : 1662839666352,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f6c4001783734986",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666351,
+        "stop" : 1662839666351,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c7f6a0a76bda60d0",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666350,
+        "stop" : 1662839666350,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2c530c5e7b1c2b48",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666349,
+        "stop" : 1662839666349,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "811a4ae7c502c552",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666348,
+        "stop" : 1662839666348,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2ff298eedf0ca4b9",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666347,
+        "stop" : 1662839666347,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "51bec1ce3ca07b7e",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666346,
+        "stop" : 1662839666347,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9d960b5b1641ab69",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666345,
+        "stop" : 1662839666346,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "31ad5819f8ed3d32",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666344,
+        "stop" : 1662839666344,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f1d9c684c60014d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666344,
+        "stop" : 1662839666345,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ad92dbcda028fcaa",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666343,
+        "stop" : 1662839666343,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec810087fb0e41eb",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666342,
+        "stop" : 1662839666342,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f4bcb86d071f78e3",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666341,
+        "stop" : 1662839666341,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1eb54ee91488396",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666340,
+        "stop" : 1662839666340,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9acc1d7c847d71bb",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666339,
+        "stop" : 1662839666339,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f3d13df1bd4ef151",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666338,
+        "stop" : 1662839666338,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "312db1a2299257bb",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666337,
+        "stop" : 1662839666337,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fcaafa0c717f36a1",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666336,
+        "stop" : 1662839666336,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6bcfd4a9075baee1",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666335,
+        "stop" : 1662839666335,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "236c593767a50858",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666334,
+        "stop" : 1662839666334,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "361d9008d375aa8f",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666333,
+        "stop" : 1662839666333,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4f070e4c1abd89ba",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666332,
+        "stop" : 1662839666332,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6eabfda518d16757",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666331,
+        "stop" : 1662839666331,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ac2a3d75b0392b11",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666330,
+        "stop" : 1662839666330,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "72c82c22ba1791aa",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666329,
+        "stop" : 1662839666329,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1502facce2699616",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666328,
+        "stop" : 1662839666328,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb7e5d712ebdfb1d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666327,
+        "stop" : 1662839666327,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ad7b909ebd805e2d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666326,
+        "stop" : 1662839666326,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "801d4ee3991aa636",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666325,
+        "stop" : 1662839666325,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7cfae6a5d1ed1630",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666324,
+        "stop" : 1662839666324,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "411038ebb29b5618",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666323,
+        "stop" : 1662839666323,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3a79e8e237d3c02a",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666322,
+        "stop" : 1662839666322,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fdca386201cd7abe",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666321,
+        "stop" : 1662839666321,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5579c70925820c27",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666320,
+        "stop" : 1662839666320,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9670316ae9b9ccdf",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666319,
+        "stop" : 1662839666319,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3e55d2cb1c5404b9",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666318,
+        "stop" : 1662839666318,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b30a061e175742c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666317,
+        "stop" : 1662839666317,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c7fe3b5f8fef029a",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666316,
+        "stop" : 1662839666316,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "79de3ecbb7390f8",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666315,
+        "stop" : 1662839666315,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3197b077df32fb32",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666314,
+        "stop" : 1662839666314,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c98ea2b1ce4604f",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666313,
+        "stop" : 1662839666313,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "91f46152510ef923",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666312,
+        "stop" : 1662839666312,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "27f9c47ab797f0ae",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666311,
+        "stop" : 1662839666311,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d2327737779515fa",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666310,
+        "stop" : 1662839666310,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6998718a5a1c27c6",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666309,
+        "stop" : 1662839666309,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "693a22bf25c38ad0",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666308,
+        "stop" : 1662839666308,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "78d1269bebef1948",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666306,
+        "stop" : 1662839666307,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5df5ccf0947ad5e2",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666305,
+        "stop" : 1662839666306,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1409cecbd36bd0b3",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666304,
+        "stop" : 1662839666305,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "59e591429eebb960",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666303,
+        "stop" : 1662839666304,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e6b409efff5d5ff",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666302,
+        "stop" : 1662839666302,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e2ff1d5856e667b",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666301,
+        "stop" : 1662839666301,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f09ff4151fdd369b",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666300,
+        "stop" : 1662839666300,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6c13404ad0acbd0f",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666299,
+        "stop" : 1662839666299,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1ecb5c0b4bfdb6d2",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666298,
+        "stop" : 1662839666298,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "85ee3cec71b89e75",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666297,
+        "stop" : 1662839666297,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9dc272c524290f4c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666296,
+        "stop" : 1662839666296,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3430dbddcf316434",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666295,
+        "stop" : 1662839666295,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b4967a42797c3261",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666294,
+        "stop" : 1662839666294,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9bf6614564ccae0d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666293,
+        "stop" : 1662839666293,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b4fbda99f4fbeab3",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666292,
+        "stop" : 1662839666292,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7fbfe36a6ab89a76",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666291,
+        "stop" : 1662839666291,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "93c818f802a287d5",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666290,
+        "stop" : 1662839666290,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5735d5a8985841eb",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666289,
+        "stop" : 1662839666289,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "16fd54c5a91fa3db",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666288,
+        "stop" : 1662839666288,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "777c029fdfc757e7",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666287,
+        "stop" : 1662839666287,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f0225447225ad764",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666286,
+        "stop" : 1662839666286,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fb5ab9d1ec97e631",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666285,
+        "stop" : 1662839666285,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "629a82ee20610a2d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666283,
+        "stop" : 1662839666284,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2eb67185d021dbdb",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666282,
+        "stop" : 1662839666283,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c30ab5b7aab4637e",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666281,
+        "stop" : 1662839666281,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "471f955c568ae2c7",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666280,
+        "stop" : 1662839666280,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a61de694192c60db",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666279,
+        "stop" : 1662839666279,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f93cba519bc2fa8d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666278,
+        "stop" : 1662839666278,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "93f793cd3e86f02c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666277,
+        "stop" : 1662839666277,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "59b5288dd0de3cda",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666276,
+        "stop" : 1662839666276,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e9b3683794dd568",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666275,
+        "stop" : 1662839666275,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1be34600b1e751af",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666274,
+        "stop" : 1662839666274,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6fe5bf58956bcbb3",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666273,
+        "stop" : 1662839666273,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "65662056313350b2",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666272,
+        "stop" : 1662839666272,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e3d32f23379740c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666271,
+        "stop" : 1662839666271,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e9ce98053528d32d",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666270,
+        "stop" : 1662839666270,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d8b60f1385fb8b5b",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666269,
+        "stop" : 1662839666269,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "536c29416bed4dba",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666268,
+        "stop" : 1662839666268,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c459a18140b0511",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666267,
+        "stop" : 1662839666267,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "27f7f4a8454c658f",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666266,
+        "stop" : 1662839666266,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7e2067064fd94c5",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666265,
+        "stop" : 1662839666265,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c3d9b9011bde562c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666264,
+        "stop" : 1662839666264,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b629c941eaeb46",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666263,
+        "stop" : 1662839666263,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ef86f26bbe6de26c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666262,
+        "stop" : 1662839666262,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "64234e0cc3b7a3ec",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666260,
+        "stop" : 1662839666260,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fafcac2b7a907011",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666259,
+        "stop" : 1662839666259,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b10a5643bf1bbc8",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666258,
+        "stop" : 1662839666258,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8e0440418c167e4a",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666256,
+        "stop" : 1662839666256,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b68ca561bcf314f",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666255,
+        "stop" : 1662839666255,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "64bda9438a962f1c",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666254,
+        "stop" : 1662839666254,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb58508326505878",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666252,
+        "stop" : 1662839666252,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ca9289e80128d0a1",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666251,
+        "stop" : 1662839666251,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7ea1342f44983225",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666250,
+        "stop" : 1662839666250,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4443c80edbb3db41",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666248,
+        "stop" : 1662839666249,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2231adea7230d6e0",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666247,
+        "stop" : 1662839666247,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "43b84bfc6c52d156",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666246,
+        "stop" : 1662839666246,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "554aba1e27dd284b",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666244,
+        "stop" : 1662839666245,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1ef1526c2b2ca1ad",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666243,
+        "stop" : 1662839666243,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4cb92ef1e22475aa",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666241,
+        "stop" : 1662839666242,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a1aeb3ad1d4322a1",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666240,
+        "stop" : 1662839666240,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db2896210806127b",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666238,
+        "stop" : 1662839666238,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3f97a8968bea0221",
+      "status" : "skipped",
+      "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+      "time" : {
+        "start" : 1662839666236,
+        "stop" : 1662839666236,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 142,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 142
+      },
+      "items" : [ {
+        "uid" : "b41bbfde9ae7029b",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/384/allure/#testresult/b41bbfde9ae7029b",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1662753266052,
+          "stop" : 1662753266052,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c1a57a8d1ffa252f",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/383/allure/#testresult/c1a57a8d1ffa252f",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1662666868284,
+          "stop" : 1662666868284,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2aaaba3aee91f522",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/382/allure/#testresult/2aaaba3aee91f522",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1662580468343,
+          "stop" : 1662580468343,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fb586ee0947af105",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/381/allure/#testresult/fb586ee0947af105",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1662494067656,
+          "stop" : 1662494067656,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e0693fc852dca2a3",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/380/allure/#testresult/e0693fc852dca2a3",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1662407668076,
+          "stop" : 1662407668076,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d76ed2da3b9af473",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/377/allure/#testresult/d76ed2da3b9af473",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1662148466135,
+          "stop" : 1662148466135,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e5c1f8b12485d433",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/376/allure/#testresult/e5c1f8b12485d433",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1662062067286,
+          "stop" : 1662062067286,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1ec5267c5190dd21",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/375/allure/#testresult/1ec5267c5190dd21",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661975666058,
+          "stop" : 1661975666059,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "644e5a154800558b",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/374/allure/#testresult/644e5a154800558b",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661889266586,
+          "stop" : 1661889266586,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4f79d287b9136126",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/373/allure/#testresult/4f79d287b9136126",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661802865842,
+          "stop" : 1661802865842,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6f1fb58c625be6a5",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/372/allure/#testresult/6f1fb58c625be6a5",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661716465335,
+          "stop" : 1661716465335,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7ae42ce6fd037b4b",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/371/allure/#testresult/7ae42ce6fd037b4b",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661630066207,
+          "stop" : 1661630066207,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "bedb1b25a3822f8",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/370/allure/#testresult/bedb1b25a3822f8",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661543665990,
+          "stop" : 1661543665990,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "b10d098b7352f48c",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/369/allure/#testresult/b10d098b7352f48c",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661457267076,
+          "stop" : 1661457267076,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e8d7a4d8754012d4",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/368/allure/#testresult/e8d7a4d8754012d4",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661370866458,
+          "stop" : 1661370866458,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4ca90ba4e2ae95cd",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/367/allure/#testresult/4ca90ba4e2ae95cd",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661284466357,
+          "stop" : 1661284466357,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "fe2c876e09f69425",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/366/allure/#testresult/fe2c876e09f69425",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661198066112,
+          "stop" : 1661198066112,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4971b18a89639f2e",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/365/allure/#testresult/4971b18a89639f2e",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661111665639,
+          "stop" : 1661111665639,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "18c7199f75f07ce6",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/364/allure/#testresult/18c7199f75f07ce6",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1661025266507,
+          "stop" : 1661025266508,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "70d7144cc542de42",
+        "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/363/allure/#testresult/70d7144cc542de42",
+        "status" : "skipped",
+        "statusDetails" : "Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure\n\nThe last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.",
+        "time" : {
+          "start" : 1660938866587,
+          "stop" : 1660938866588,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8239e3d953af4d95.json",
+  "parameterValues" : [ ]
+}

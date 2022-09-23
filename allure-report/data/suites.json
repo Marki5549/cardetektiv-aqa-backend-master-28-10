@@ -1,0 +1,160 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Cardetective Full Regression suite",
+    "children" : [ {
+      "name" : "Cardetective acceptance tests",
+      "children" : [ {
+        "name" : "de.cardetecktive.app.model.ProviderCarModelsTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "73640a9261346f09",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "broken",
+          "time" : {
+            "start" : 1662839664435,
+            "stop" : 1662839664436,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in AUTOSCOUT_CH provider",
+          "uid" : "79556ecba7688e0e",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839665593,
+            "stop" : 1662839665593,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in AUTOSCOUT provider",
+          "uid" : "9a0de248a2b448c4",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839666024,
+            "stop" : 1662839666024,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in AUTOTRADER provider",
+          "uid" : "8239e3d953af4d95",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839666377,
+            "stop" : 1662839666377,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in COCHES provider",
+          "uid" : "c82b60f4c17873b9",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839666579,
+            "stop" : 1662839666579,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in HASZNALTAUTO provider",
+          "uid" : "b95de103d23fcd95",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839666992,
+            "stop" : 1662839666992,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in LACENTRAL_FR provider",
+          "uid" : "13e3f081ba31bc0d",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839667343,
+            "stop" : 1662839667343,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in MOBILEDEW provider",
+          "uid" : "c206eb4e8f086073",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839667484,
+            "stop" : 1662839667485,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in OTOMOTO provider",
+          "uid" : "df0e99dba1b727dc",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839667801,
+            "stop" : 1662839667801,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in PKW provider",
+          "uid" : "2e7810678e5ad65b",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839668387,
+            "stop" : 1662839668387,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Client should have the same set of car models for each make as in PORSCHE_FINDER_DE provider",
+          "uid" : "cb1016d8aa2fcb71",
+          "parentUid" : "54a597f12555029014851343cf1d31bc",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1662839668389,
+            "stop" : 1662839668389,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "54a597f12555029014851343cf1d31bc"
+      } ],
+      "uid" : "9f6555a502ed9a45af7b82aa63266199"
+    } ],
+    "uid" : "6dcd87b2e3be8634ac83dcc1c572e026"
+  } ],
+  "name" : "suites"
+}

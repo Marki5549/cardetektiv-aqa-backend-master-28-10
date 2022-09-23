@@ -1,0 +1,28 @@
+{
+    "opnum": "12352342143",
+    "make": "BMW",
+    "model": "114",
+    "minimalYear": "2007",
+    "adOnlineFrom": "2021-02-28T22:00:00.000Z",
+    "adOnlineTo": "2021-02-28T22:00:00.000Z",
+    "fuelTypes": "DIESEL",
+    "searchMaskType": "ARCHIVE",
+    "vehicleType": "CAR",
+    "accidentData": "DO_NOT_SHOW_ACCIDENT_VEHICLES",
+    "vatableOption": "ANY",
+    "country": [
+      "DE"
+    ],
+    "sortField": "price",
+    "sortOrder": true,
+    "sortOverride": true,
+    "sources": "SEARCH",
+    "providers": [
+      "MOBILEDEW"
+    ],
+    "cache": null,
+    "_internal": {
+      "page": 0,
+      "pageSize": 20
+    }
+  }

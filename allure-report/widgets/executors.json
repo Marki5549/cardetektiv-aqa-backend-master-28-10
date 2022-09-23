@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "https://dev.cardetektiv.de/",
+  "buildOrder" : 385,
+  "buildName" : "cardetektiv-aqa-backend #385",
+  "buildUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/385/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "https://dev.cardetektiv.de/job/cardetektiv-aqa-backend/385/allure"
+} ]

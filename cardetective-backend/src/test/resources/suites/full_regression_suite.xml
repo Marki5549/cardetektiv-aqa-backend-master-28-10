@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Cardetective Full Regression suite" verbose="1">
+    <listeners>
+        <listener class-name="de.cardetecktive.app.utils.listeners.TestNGCustomEmailableReport"/>
+    </listeners>
+    <test name="Cardetective acceptance tests">
+        <classes>
+            <class name="de.cardetecktive.app.model.ProviderCarModelsTest"/>
+        </classes>
+    </test>
+</suite>

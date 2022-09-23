@@ -1,0 +1,7 @@
+# Project exclude paths
+/cardetective-backend/target/
+/cardetective-common/target/
+/cardetective-frontend/target/
+/cardetective-model/target/
+/cardetektiv-backend-prod/target/
+/target/
