@@ -1,6 +1,7 @@
 package de.cardetektiv.app.model;
 
 import com.google.common.base.Supplier;
+import de.cardetektiv.app.ApplicationBaseTest;
 import de.cardetecktive.app.cars.Makes;
 import de.cardetecktive.app.cars.Models.Model;
 import de.cardetecktive.app.enums.Provider;
