@@ -1,10 +1,10 @@
 package de.cardetektiv.app.model;
 
 import com.google.common.base.Supplier;
-import de.cardetektiv.app.ApplicationBaseTest;
 import de.cardetecktive.app.cars.Makes;
 import de.cardetecktive.app.cars.Models.Model;
 import de.cardetecktive.app.enums.Provider;
+import de.cardetektiv.app.ApplicationBaseTest;
 import de.cardetektiv.app.steps.MakeModelSteps;
 import de.cardetektiv.app.utils.CastUtils;
 import io.qameta.allure.Feature;
@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+
 
 @Feature("[BE] Application car makes and models by provider")
 public class ProviderCarModelsTest extends ApplicationBaseTest {

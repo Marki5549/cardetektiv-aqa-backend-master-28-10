@@ -11,11 +11,13 @@
 
     <artifactId>cardetektiv-backend-prod</artifactId>
 
+
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -33,7 +35,10 @@
         </plugins>
     </build>
 
+
+
     <dependencies>
+
         <dependency>
             <groupId>de.cardetektiv.de.cardetecktive.app</groupId>
             <artifactId>cardetective-model</artifactId>
@@ -52,12 +57,12 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>5.3.22</version>
+            <version>5.3.23</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>5.3.22</version>
+            <version>5.3.23</version>
         </dependency>
 
         <dependency>
@@ -89,12 +94,12 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
-            <version>5.2.0</version>
+            <version>5.1.1</version>
         </dependency>
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20220320</version>
+            <version>20220924</version>
         </dependency>
         <dependency>
             <groupId>com.google.code.gson</groupId>
@@ -110,7 +115,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
-            <version>5.3.22</version>
+            <version>5.3.23</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -145,5 +150,6 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+
 
 </project>
